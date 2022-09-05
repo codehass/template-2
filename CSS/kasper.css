@@ -636,3 +636,21 @@ header nav .form i {
   font-size: 14px;
 }
 /* End Stats  */
+/* Start skills  */
+.our-skills {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+
+.our-skills .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 992px) {
+  .our-skills .container > div {
+    flex-basis: 45%;
+  }
+}
+/* End skills  */
